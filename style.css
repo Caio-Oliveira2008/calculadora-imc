@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background: linear-gradient(135deg, #a1a1a1, #3a3a3a);
+}
+
+form {
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura fixa para o formulário */
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.texts{
+    margin-left: 10%;
+    color: #fff
+}
+
+#peso, #altura{
+    margin-top: 5px;
+    border: 1px solid #000;
+    width: 80%;
+    margin-left: 10%;
+    height: 20px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 1%;
+}
+
+.inputs {
+    margin-bottom: 15px;
+}
+
+#enviar {
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    margin-left: 25%;
+    background-color: #a1a1a1;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer
+}
+
+#imc {
+    margin-left: 10%;
+    color: #fff
+}
